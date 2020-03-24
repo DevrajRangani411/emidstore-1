@@ -1,0 +1,226 @@
+.yellow-bg{
+  background: #e4ad22;
+}
+.gray-bg{
+  background: #e8e8e8;
+}
+.black-bg{
+  background: #a5a5a5;
+}
+img{
+  max-width: 100%;
+}
+body{
+  margin: 0px;
+  padding: 0px;
+}
+.full-height{
+  min-height: 100vh;
+}
+.home-project{
+  z-index: 3;  
+  overflow: hidden;
+  position: relative;  
+}
+.home-project__inner{
+  /*padding: 17% 0 25%;*/
+  /*background: #09143d;*/
+  
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center; 
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.home-project__clip{
+  clip: rect(auto, auto, auto, auto);
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;  
+}
+.home-project__phone{
+  display: block;
+  left: 50%;
+  max-width: 620px;
+  max-height: 866px;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  vertical-align: middle;
+  width: 30.66667%;
+}
+.home-project__phone .phone__responsive{
+  margin: 0 auto;
+  max-width: 75%;
+  width: 18.85em;  
+}
+.home-project__phone .phone__responsive{
+  /*margin-left: -280px;  */
+}
+.phone__responsive__inner{
+  padding-top: 208.75332%;
+  position: relative;  
+}
+.phone__responsive__bg{
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;  
+}
+.responsive__bg__wrap{
+  bottom: 0;
+  height: 105%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;  
+}
+.responsive__bg__wrap img{
+  bottom: 0;
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;  
+}
+.phone__reveal{
+  height: 76.32922%;
+  left: 5.48806%;
+  position: absolute;
+  top: 13.21245%;
+  width: 89.20963%;
+}
+.phone__reveal__wrap{
+  bottom: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;  
+}
+
+.wrap{
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 0px;  
+}
+.home-project__clip+.wrap{
+  position: relative;
+}
+.home-project__content{
+  text-align: center;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+.home-project__desc{
+  display: inline-block;
+  /* padding-left: 25.83333%; */
+  text-align: left;
+  text-shadow: 0px 1px 2px rgba(22,22,22,0.2);
+  vertical-align: middle;
+  width: 33.3333%;
+  float: right;
+}
+.home-project__desc h2{
+  font-size: 48px;
+}
+.home-project.wrap-left .home-project__desc{
+  float: left;
+}
+.home-project__desc h3{
+    /*font-size: 31px;
+    font-size: 1.55rem;*/
+    font-weight: bold;
+    line-height: 1.2777777778;
+    margin: 0 0 1em;
+    text-transform: uppercase;
+    color: #FFF;
+}
+/*.home-project__desc p{
+    line-height: normal;
+    background: #1f9bde;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 20px;;
+    color: #FFF;
+    position: relative;
+}*/
+/*#three .home-project__desc p,
+#five .home-project__desc p{
+  border-radius: 30px 30px 30px 0px;
+}*/
+/*.home-project__desc p:before{
+  /*content: "";
+  bottom: 0;
+  position: absolute;
+  width: 0;
+  height: 0;
+  
+  border-style: solid;
+  
+  content: '';
+  bottom: 30px;
+  position: absolute;
+  border: 0px solid;
+  display: block;
+  width: 50px;
+  height: 35px;
+  background-color: transparent;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  box-shadow: -21px 9px 0px 8px #1f9bde;
+  z-index: -1;
+  
+}
+#two .home-project__desc p:before,
+#four .home-project__desc p:before{
+  right: -39px;
+  /*border-color: transparent transparent transparent #1f9bde;
+  box-shadow: -21px 9px 0px 8px #1f9bde;
+}
+#three .home-project__desc p:before,
+#five .home-project__desc p:before{
+  left: -39px;
+  /*border-width: 0px 0px 15px 30px;
+  border-color: transparent transparent #1f9bde transparent;
+  box-shadow: 21px 9px 0px 8px #1f9bde;
+}
+
+*/
+@media only screen and (max-height: 68.75em){
+  .home-project__phone{
+    max-width: 400px;
+  }
+  .home-project__phone .phone__responsive{
+    width: 18.75em;
+  }
+  .home-project__desc{
+    /*padding-left: 11em;    */
+  }
+}
+
+@media only screen and (max-height: 64.0625em) {
+  .home-project__phone{
+    padding-top: 1.5em;
+  }
+  .home-project__phone .phone__responsive{
+    /*width: 17.5em;*/
+  }
+}
+
+
+
+
+
